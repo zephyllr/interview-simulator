@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> Interview Simulation </title>
+	<link rel="stylesheet" href="style.css" />
+	<script language="JavaScript">
+		function showInput() {
+			document.getElementById('display').innerHTML =
+				document.getElementById("user_input").value;
+		}
+	</script>
+</head>
+
+<body>
+
+	<h1> Interview Simulator </h1>
+	<h2><i>Scroll for more questions:</i></h2>
+	<div id = "questions">
+		<p>
+		"How would you describe yourself?"<br> 
+		"What makes you different?"<br> 
+		"Tell me about a book, movie, article that has inspired you/changed your view on life and why."<br> 
+		"How do you work under pressure, and give me an example."<br>
+		"What do you see yourself doing in the future?"<br>
+		"What are some of your activities outside of school?"<br>
+		"What extracurricular activities mean the most to you?"<br>
+		"What's your favorite class and why?"<br>
+		"If you could run your school, what one change you would be sure to make?"<br>
+		"What do you look for in a school?"<br>
+		"What can you add to X school?"<br> 
+		"What are your strengths?"<br>
+		"What's your weakness?"<br>
+		"If you were a tour guide for your city, where would you bring people to?"<br>
+		"Where do you see yourself in 15 years?"<br>
+		"If someone gave you $15,000, what would you do with it?"<br>
+		"What do you wish you could add to the college application?"<br>
+		"What's the hardest thing you've ever done?"<br>
+		"Why school X?"<br>
+		"Is there anything you'd like to convey to the admissions committee outside of what you put on the application?"<br>
+		"Do you have any questions for me?"<br>
+		</p>
+	</div>
+
+	<form>
+		Write your answers in the style of your choice:<br>
+		<textarea id="user_input" rows="12" cols="150"> </textarea>
+	</form>
+	
+	<input id = "submit" type="submit" onclick="showInput();"><br/>
+	<label id = "input_label">Your input: </label>
+	<p><span id='display'></span></p>
+
+	<!-- alternate method using pop-ups with js
+	<p id="display">
+		<button onclick="myFunction()"> Click Here! </button>
+	</p>
+
+	<div id="responses" class="responses"></div>
+	<script>
+		var count = 0;
+
+		function myFunction() {
+			var questions = [
+				"How would you describe yourself?",
+				"What makes you different?",
+				"Tell me about a book, movie, article that has inspired you/changed your view on life and why.",
+				"How do you work under pressure, and give me an example.",
+				"What do you see yourself doing in the future?",
+				"What are some of your activities outside of school?",
+				"What extracurricular activities mean the most to you?",
+				"What's your favorite class and why?",
+				"If you could run your school, what one change you would be sure to make?",
+				"What do you look for in a school?",
+				"What can you add to X school?",
+				"What are your strengths?",
+				"What's your weakness?",
+				"If you were a tour guide for your city, where would you bring people to?",
+				"Where do you see yourself in 15 years?",
+				"If someone gave you $15,000, what would you do with it?",
+				"What do you wish you could add to the college application?",
+				"What's the hardest thing you've ever done?",
+				"Why school X?",
+				"Is there anything you'd like to convey to the admissions committee outside of what you put on the application?",
+				"Do you have any questions for me?"
+			];
+			var answers = [];
+
+			for (var i = 0; i < questions.length; i++) {
+				answers[i] = prompt(questions[i]);
+			}
+
+			var answerHtml = "";
+			for (var i = 0; i < answers.length; i++) {
+				answerHtml += "<p>" + questions[i] + "</p>" + "<p>" + answers[i] + "</p>";
+			}
+			document.getElementById('responses').innerHTML = answerHtml;
+
+		}
+	</script>
+	<script type="text/javascript" src="Int_Sim.js"></script>
+-->
+
+</body>
+
+</html>

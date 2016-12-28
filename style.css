@@ -1,0 +1,89 @@
+html {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin: 1rem 6rem;
+	min-width: 650px;
+}
+body {
+	text-align: center;
+}
+.icons img {
+	height:10rem;
+	width: 10rem;
+	margin: 2rem;
+}
+.icons a {
+		text-decoration: none;
+}
+h1 {
+	color: navy;
+	font-size: 64px;
+	font-weight: bold;
+}
+h2 {
+	color: navy;
+}
+p {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+#dontworry {
+	font-size: 28px;
+}
+#skip {
+	display: none;
+	font-size: 28px;
+}
+#ivy {
+	font-size: 28px;
+}
+#icons a {
+	text-decoration: none;
+}
+#interviewSimulation {
+	color: green;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	text-decoration: none;
+}
+#questions {
+	margin-bottom: 1rem;
+	line-height: 28px;
+    height: 148px;
+    background-color: #eee;
+    overflow: scroll;
+}
+#user_input {
+	margin: 1rem;
+}
+#submit {
+	font-size: 1rem;
+	border: 1px solid black;
+	text-decoration: none;
+	margin-bottom: 1em;
+	padding: .5em 1em;
+	border-radius: 10px;
+}
+#input_label {
+	margin: 10rem;
+}
+#display {
+	width: 250px;
+	line-height: 25px;
+}
+.button {
+	font-size: 2rem;
+	border: 1px solid black;
+	text-decoration: none;
+	background-color: lightgreen;
+	padding: .5em .5em;
+	color: white;
+	font-weight: bold;
+	border-radius: 25px;
+}
+
+footer {
+	font-size: 16px;
+	display: block;
+	color: gray;
+	padding: 3em 2em 2em;
+}
